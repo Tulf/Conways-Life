@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
 import './styles/App.css';
-import Game from './logic/game.jsx'
+import Game from './components'
 
-class App extends Component {
-  render() {
-    return (
+export default () => (
       <div className="App">
-        <Game></Game>
+        <Game />
       </div>
     );
-  }
-}
-
-export default App;
